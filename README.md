@@ -2,9 +2,13 @@
 End to end data engineering project on Google Cloud
  
  This project involves:   
+ 
  data ingestion from weather API in JSON file format via NIFI 
- after some transformation,  streaming the real-time data to Kafka. 
+ 
+ after some transformation,  streaming the real-time data to Kafka.
+ 
  Load the incoming real time data from Kafka to BigQuery via Spark
+ 
  Docker container created in order to deploy Streamlit application quickly in case of changes to the source code.
 
 
